@@ -1,0 +1,283 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.header-1 {
+    background-color: #01415f;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.list   {
+    background-color: #01415f;
+    width: max-content;
+    padding: 0%;
+    margin-left: 320px; 
+    display: flex;
+    height: 40px;
+    
+}
+
+.cank {
+    list-style: none;
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+.cank li {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: normal;
+    line-height: 2.9;
+    height: 40px ;
+    text-align: center;
+    color: white;
+    font-size: small;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+
+.cank li:hover {
+    background-color:#437a93 ;
+    cursor: pointer;
+}
+
+
+.search-div {
+   
+    height: 15px;
+    width: max-content;
+    margin-left: 530px;
+    
+    
+    padding: 0;
+    display: flex;    
+}
+
+.search-button {
+    background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  
+}
+
+
+.search-button:hover {
+    cursor: pointer;
+    
+}
+
+
+
+.language-div {
+    
+    height: 40px;
+    width: max-content;
+    margin-left: 25px;
+    display: flex;
+    padding: 0;
+}
+
+
+.language-list  {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+}
+
+
+
+.language-list li  {
+    font-size: small;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 3;
+}
+
+
+.language-list li:hover {
+    color: #f04d4d;
+    cursor: pointer;
+}
+
+
+
+.personal-office {
+    width: max-content;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    animation: backgroundChange 15s ease infinite;
+    
+}
+
+
+@keyframes backgroundChange {
+    0% {
+      background-color: #01415f; /* Starting color */
+    }
+    100% {
+      background-color: #2b5162; /* Ending color */
+    }
+  }
+
+.personal-office:hover {
+    /*opacity: 70%; */
+    /*cursor: pointer; */
+    animation: none;
+}
+
+.personal-office-link {
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+    font-weight: normal;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+    
+}
+
+
+.personal-logo-div   {
+        width: 31.701388884px;
+        height: 22px;
+        padding: 0;
+        margin: 0;
+}
+
+
+ /*  ############################################################### */
+
+
+ .header-2 {
+    
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    z-index: 1;
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,.2);
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+ }
+
+
+.logo--team {
+    text-decoration: none;
+
+}
+
+
+.team-image   {
+         margin-left: 332px;
+}
+
+
+.top-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 22px;
+       
+    height: 58px;
+    width: max-content;
+    
+}
+
+
+
+.top-list li {
+    display: inline-block;
+    color: black;
+    line-height: 4;
+    margin: 0;
+    padding: 0;
+    height: 58px;
+    width: max-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: normal;
+    font-size: .950rem;
+    font-family: 'Team-Regular', 'Helvetica', 'Arial', 'sans-serif';
+    
+}
+
+
+.top-list li:hover {
+     background-color: #f6f6f6;
+     cursor: default;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
